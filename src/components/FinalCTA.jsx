@@ -10,7 +10,7 @@ export default function FinalCTA() {
                 Ready to take your track to a <span className="text-primary">professional</span> level?
               </h2>
               <p className="text-slate-400 mb-12 text-lg">
-                Limited slots available for this month. Get a custom quote for your project in under 24 hours.
+                I'd love to work with you. Get started with a $150 deposit — or reach out with any questions first.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <button className="w-full sm:w-auto bg-primary text-background-dark px-10 py-4 rounded-xl font-bold text-lg hover:shadow-[0_0_30px_rgba(0,238,255,0.4)] transition-all">

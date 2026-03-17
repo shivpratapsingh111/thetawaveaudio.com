@@ -15,17 +15,16 @@ export default function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
           </span>
-          Now accepting projects for Q4
+          Now accepting new projects
         </div>
         <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[1.1] tracking-tighter">
-          Professional mixes that{" "}
+          Professional mixes for artists who want their songs to{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-purple">
             compete
-          </span>{" "}
-          with the records you love
+          </span>
         </h1>
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
-          High-end cinematic audio engineering for independent artists who demand industry-standard clarity, depth, and emotion.
+          Mixing engineer Cory Miller brings clarity, balance, and life to rock, hip-hop, and indie music — working with artists from every corner of the world.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button className="w-full sm:w-auto bg-primary text-background-dark px-10 py-4 rounded-xl font-bold text-lg hover:shadow-[0_0_30px_rgba(0,238,255,0.4)] transition-all">

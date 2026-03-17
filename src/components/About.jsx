@@ -14,20 +14,23 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 glass px-6 py-4 rounded-xl border-primary/20 z-20">
-              <p className="text-3xl font-black text-primary">15+</p>
-              <p className="text-[10px] font-bold uppercase text-slate-400">Years Experience</p>
+              <p className="text-3xl font-black text-primary">Nashville</p>
+              <p className="text-[10px] font-bold uppercase text-slate-400">TN Based</p>
             </div>
           </div>
           <div className="lg:w-1/2">
             <h2 className="text-4xl font-bold mb-8 leading-tight">
-              Artists first, <br />
-              <span className="text-primary">Egos last.</span>
+              Your music. <br />
+              <span className="text-primary">Elevated.</span>
             </h2>
             <p className="text-slate-400 text-lg mb-6 leading-relaxed">
-              Founded by multi-instrumentalist and engineer Leo Thorne, Theta Wave Audio was built on a simple principle: your music deserves the same sonic landscape as the world's biggest stars.
+              I'm Cory Miller — mixing engineer, former drummer, performer, and lifelong lover of sound. I work with artists from every genre and every corner of the world, from the U.S. to Zimbabwe.
+            </p>
+            <p className="text-slate-400 text-lg mb-6 leading-relaxed">
+              I'm not here to force your music into something it's not. You spent countless hours writing, arranging, and recording your song. My job is to honor that — mixing with respect for the vibe and a commitment to clarity, balance, and life.
             </p>
             <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-              We don't just "mix" tracks; we build immersive audio experiences. We listen to your story, your inspirations, and your sonic goals before we ever touch a fader.
+              Music doesn't like being pushed in the wrong direction — if you listen, it will tell you where it wants to go. I help your track cross the finish line in the most natural and powerful way possible.
             </p>
             <div className="flex items-center gap-12">
               <div>

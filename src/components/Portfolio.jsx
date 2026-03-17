@@ -1,28 +1,28 @@
-const filters = ["All", "Cinematic", "Electronic", "Pop/RnB"];
+const filters = ["All", "Rock", "Hip-Hop", "Indie"];
 
 const items = [
   {
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDpC3v-PruKYckXS2amL-XJse45iIDy_9Y0GmBAYUm7KrkuBm-8EeJgXi-TFLe9zMrecpvX7X8xkRQ4LBDOYzb_KxiqsTNuU6Voz-wePTxi77Arp1ybYgIcp2j-VSA8QpBdxkEUj-TfbM2399ThrlX4MaIT6uON6OuHkLKjPA5jhrPgTjmx6HdBliRZtim6JOyGTVvZo7NhtYOEbBuJgOUwiVsqh3J82vxJaVf7yyXkPcy_ryEEAZH9tnUIontyBklQaSk-eLJomu5-",
     alt: "Dark aesthetic concert DJ",
-    genre: "Electronic",
+    genre: "Rock",
     title: "Glitch Heart",
   },
   {
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDPIQsFaShg7eoypVs-ERZjC45d9nJ4mfpUJxJtZQQ9ukWZuzgXGGzuS_SahlmXDlev7xT43-eONGaLor9PPrKHua1JnTmgbAcKYwHCPiB0ipr1UhQftj_P_uobi8L0NESsNMoZAybK_BiJ_R0qvYOVxO22gpMjzDUpUBGSU4j7xv3YlntEg19p8nSbNkqkUegKWE4MliuC65lUUisJ0JtlursZVwncn5aPs4JH5G48vvMeNH4V8-CjxAgiW4767u6erewtKm6te7PC",
     alt: "Vocalist recording in a modern booth",
-    genre: "RnB",
+    genre: "Hip-Hop",
     title: "Velvet Soul",
   },
   {
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMoWE8wRtAChzucgXRF0fSEzo6RWdiDGcaqXgCXs4IyK_gK5ycpowMSXzxoLMDK1COBxdg0YEKyYsRs284sYRJKK9tBOrfN4pvJn4mArGiKJ6kV7HggI8kdjrWEyqnz30kUFsbFnY72-BdFdQqAeDsQJH9GzSCAQJBwRIpHPR7rfXFIJaM0z2k2b6km8bVc0AxCTlCCLKLCGXuwwBqN99gi7ERQvd620xlS-jvDQZNFNyEjer0pNFLS1p6iPzsLfiBL1GxKaApCaRB",
     alt: "Dramatic stage lighting for pop performance",
-    genre: "Pop",
+    genre: "Indie",
     title: "Neon Skyline",
   },
   {
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB3IXXhj-UJXig96kJynZyrEiw7U7DmZPp1CFHcJAJeonQbnPf3gazSa1pxqwfOuVMnpTg3ottvVKZr0P4Osng_wCasA5ZagmuVTsqGVssx9_9aw-T06f5rF0TRllf-sq4DOg6rVDwY9LbO_nYsFOMhkIa2SWks_DVyjB5O29Sz2xqfHLzqiTkpPRQ7yhPBlphVBIUlj__-OkmRTel3h8PWsxHdG3tMwU7vL1gKmlWIUM14CkSGYqdpRKeiYpCWrmp9lhpRKq1Hdel_",
     alt: "Epic orchestral session",
-    genre: "Cinematic",
+    genre: "Rock",
     title: "Aetheris",
   },
 ];
