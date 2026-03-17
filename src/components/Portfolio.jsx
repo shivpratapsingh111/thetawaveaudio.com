@@ -1,29 +1,31 @@
-const filters = ["All", "Rock", "Hip-Hop", "Indie"];
-
-const items = [
+const tracks = [
   {
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDpC3v-PruKYckXS2amL-XJse45iIDy_9Y0GmBAYUm7KrkuBm-8EeJgXi-TFLe9zMrecpvX7X8xkRQ4LBDOYzb_KxiqsTNuU6Voz-wePTxi77Arp1ybYgIcp2j-VSA8QpBdxkEUj-TfbM2399ThrlX4MaIT6uON6OuHkLKjPA5jhrPgTjmx6HdBliRZtim6JOyGTVvZo7NhtYOEbBuJgOUwiVsqh3J82vxJaVf7yyXkPcy_ryEEAZH9tnUIontyBklQaSk-eLJomu5-",
-    alt: "Dark aesthetic concert DJ",
-    genre: "Rock",
-    title: "Glitch Heart",
+    title: "Kraazed — Beyond That",
+    artist: "Kraazed",
+    embedUrl:
+      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thetawaveaudio/kraazed-beyondthat&color=%2300eeff&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false",
+    scUrl: "https://soundcloud.com/thetawaveaudio/kraazed-beyondthat",
   },
   {
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDPIQsFaShg7eoypVs-ERZjC45d9nJ4mfpUJxJtZQQ9ukWZuzgXGGzuS_SahlmXDlev7xT43-eONGaLor9PPrKHua1JnTmgbAcKYwHCPiB0ipr1UhQftj_P_uobi8L0NESsNMoZAybK_BiJ_R0qvYOVxO22gpMjzDUpUBGSU4j7xv3YlntEg19p8nSbNkqkUegKWE4MliuC65lUUisJ0JtlursZVwncn5aPs4JH5G48vvMeNH4V8-CjxAgiW4767u6erewtKm6te7PC",
-    alt: "Vocalist recording in a modern booth",
-    genre: "Hip-Hop",
-    title: "Velvet Soul",
+    title: "Kraazed — Live On",
+    artist: "Kraazed",
+    embedUrl:
+      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thetawaveaudio/kraazed-liveon&color=%2300eeff&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false",
+    scUrl: "https://soundcloud.com/thetawaveaudio/kraazed-liveon",
   },
   {
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMoWE8wRtAChzucgXRF0fSEzo6RWdiDGcaqXgCXs4IyK_gK5ycpowMSXzxoLMDK1COBxdg0YEKyYsRs284sYRJKK9tBOrfN4pvJn4mArGiKJ6kV7HggI8kdjrWEyqnz30kUFsbFnY72-BdFdQqAeDsQJH9GzSCAQJBwRIpHPR7rfXFIJaM0z2k2b6km8bVc0AxCTlCCLKLCGXuwwBqN99gi7ERQvd620xlS-jvDQZNFNyEjer0pNFLS1p6iPzsLfiBL1GxKaApCaRB",
-    alt: "Dramatic stage lighting for pop performance",
-    genre: "Indie",
-    title: "Neon Skyline",
+    title: "Kraazed — Rubix Cube",
+    artist: "Kraazed",
+    embedUrl:
+      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thetawaveaudio/kraazed-rubixcube&color=%2300eeff&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false",
+    scUrl: "https://soundcloud.com/thetawaveaudio/kraazed-rubixcube",
   },
   {
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB3IXXhj-UJXig96kJynZyrEiw7U7DmZPp1CFHcJAJeonQbnPf3gazSa1pxqwfOuVMnpTg3ottvVKZr0P4Osng_wCasA5ZagmuVTsqGVssx9_9aw-T06f5rF0TRllf-sq4DOg6rVDwY9LbO_nYsFOMhkIa2SWks_DVyjB5O29Sz2xqfHLzqiTkpPRQ7yhPBlphVBIUlj__-OkmRTel3h8PWsxHdG3tMwU7vL1gKmlWIUM14CkSGYqdpRKeiYpCWrmp9lhpRKq1Hdel_",
-    alt: "Epic orchestral session",
-    genre: "Rock",
-    title: "Aetheris",
+    title: "Kraazed — Serenity",
+    artist: "Kraazed",
+    embedUrl:
+      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thetawaveaudio/kraazed-serenity&color=%2300eeff&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false",
+    scUrl: "https://soundcloud.com/thetawaveaudio/kraazed-serenity",
   },
 ];
 
@@ -33,39 +35,68 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div>
-            <h2 className="text-4xl font-bold mb-4">Our Discography</h2>
-            <p className="text-slate-400">A collection of tracks that hit the billboard and the heart.</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-primary">Portfolio</span>
+            </h2>
+            <p className="text-slate-400 max-w-xl">
+              Listen to real mixes completed by Theta Wave Audio. More coming soon.
+            </p>
           </div>
-          <div className="flex flex-wrap gap-3">
-            {filters.map((filter, i) => (
-              <button
-                key={filter}
-                className={
-                  i === 0
-                    ? "px-5 py-2 rounded-full bg-primary text-background-dark text-xs font-bold uppercase tracking-widest"
-                    : "px-5 py-2 rounded-full glass text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all"
-                }
-              >
-                {filter}
-              </button>
-            ))}
-          </div>
+          <a
+            href="https://soundcloud.com/thetawaveaudio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-primary font-bold text-sm hover:underline shrink-0"
+          >
+            <span className="material-symbols-outlined">cloud</span>
+            View all on SoundCloud
+            <span className="material-symbols-outlined text-sm">open_in_new</span>
+          </a>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {items.map((item) => (
-            <div key={item.title} className="aspect-square rounded-2xl overflow-hidden relative group cursor-pointer">
-              <img
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                alt={item.alt}
-                src={item.image}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent opacity-80"></div>
-              <div className="absolute bottom-4 left-4 right-4">
-                <p className="text-[10px] font-bold text-primary uppercase tracking-widest mb-1">{item.genre}</p>
-                <h5 className="font-bold leading-tight">{item.title}</h5>
+
+        {/* SoundCloud Embeds */}
+        <div className="grid md:grid-cols-2 gap-6">
+          {tracks.map((track) => (
+            <div
+              key={track.title}
+              className="glass p-6 rounded-2xl glow-border group hover:border-primary/30 transition-all"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <span className="material-symbols-outlined text-primary">music_note</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-sm">{track.title}</h4>
+                  <p className="text-xs text-slate-500">Mixed by Cory Miller</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="166"
+                  scrolling="no"
+                  frameBorder="no"
+                  allow="autoplay"
+                  src={track.embedUrl}
+                  title={track.title}
+                  className="rounded-xl"
+                ></iframe>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* More Coming Soon */}
+        <div className="mt-12 text-center">
+          <div className="inline-flex items-center gap-3 glass px-8 py-4 rounded-full">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+            </span>
+            <span className="text-sm font-bold uppercase tracking-widest text-slate-400">
+              More projects coming soon
+            </span>
+          </div>
         </div>
       </div>
     </section>

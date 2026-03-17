@@ -8,11 +8,13 @@ export default function Header() {
             Theta Wave <span className="text-primary">Audio</span>
           </span>
         </div>
-        <div className="hidden md:flex items-center gap-10">
+        <div className="hidden lg:flex items-center gap-8">
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#services">Services</a>
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">Portfolio</a>
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#process">Process</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#blog">Blog</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#resources">Resources</a>
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#faq">FAQ</a>
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
         </div>
         <button className="bg-primary hover:bg-primary/90 text-background-dark px-6 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(0,238,255,0.3)]">
